@@ -1,3 +1,5 @@
+pip install gtfparse pandas
+wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_47/gencode.v47.annotation.gtf.gz
 import pandas as pd
 from gtfparse import read_gtf
 
