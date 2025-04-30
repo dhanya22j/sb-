@@ -13,3 +13,4 @@ gene_info = gene_entries[["gene_id", "gene_name"]].drop_duplicates()
 
 # Display the first few rows
 print(gene_info.head())
+gene_info.to_csv("gene_names.csv", index=False)
